@@ -13,8 +13,6 @@ dotenv.config();
 
 app.use("/api/user",router);
 app.use("/api/blog",blogRouter);
-const MONGOURL = "mongodb+srv://sreeharshak002:helloworld@cluster0.qnrsazu.mongodb.net/Blog?retryWrites=true&w=majority"
-console.log(process.env.MONGO);
 
 const connect = async () => {
   await mongoose
