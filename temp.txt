@@ -1,0 +1,19 @@
+stores documents in collections ->NoSQL
+stores records in tables ->SQL
+
+NodeJs -> A Javascript Engine built for browser.
+JS runtime environment that allows developers to write and run JS code 
+outisde the browser.It is used for server side development
+
+ExpressJS -> framework of NodeJs
+
+1)npm init 
+2)package.json contains all details of our node app
+3)nodemon inside script add start as nodemon app.json
+4)To start use cmd -> npm start
+5)That resolution and type in package json is used for the module import in ES6
+6) flow is like ->
+        model -> controller -> routes -> app.js
+
+7)for adding we use session in Mongoose
+8)for deletion or fetching use the populate option
